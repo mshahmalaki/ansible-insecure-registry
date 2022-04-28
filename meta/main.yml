@@ -1,0 +1,23 @@
+galaxy_info:
+  author: Mohammad Shahmaleki
+  description: Ansible role for set insecure registry in daemon.json file of docker service
+  license: MIT
+  min_ansible_version: 2.1
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Debian
+    versions:
+    - all
+  - name: EL
+    versions:
+    - all
+  - name: Fedora
+    versions:
+    - all
+  galaxy_tags:
+  - system
+
+dependencies: []
