@@ -1,0 +1,6 @@
+insecure_registry_url: 
+  - reg1.example.com
+  - reg2.example.com:8080
+
+registry_mirrors_url:
+  - http://reg2.example.com:8080
