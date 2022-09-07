@@ -1,8 +1,7 @@
 {
-  "insecure-registries": [
-    "{{ insecure_registry_url }}"
-  ],
-  "registry-mirrors": [
-    "{{ insecure_registry_url }}"
-  ]
+  "insecure-registries":
+    {{ insecure_registry_url | to_nice_json }}
+  ,
+  "registry-mirrors":
+    {{ registry_mirrors_url | to_nice_json }}
 }
