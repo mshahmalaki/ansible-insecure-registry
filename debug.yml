@@ -1,0 +1,8 @@
+- hosts: localhost
+  gather_facts: false
+  vars:
+    foo: bar
+  tasks:
+    - debug:
+        msg: |
+          foo is {{ foo | to_nice_json }}

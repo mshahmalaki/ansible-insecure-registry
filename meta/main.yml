@@ -1,8 +1,10 @@
 galaxy_info:
+  role_name: ansible_insecure_registry
+  namespace: mshahmalaki
   author: Mohammad Shahmaleki
   description: Ansible role for set insecure registry in daemon.json file of docker service
   license: MIT
-  min_ansible_version: 2.1
+  min_ansible_version: "2.1"
 
   platforms:
   - name: Ubuntu
